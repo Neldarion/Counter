@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
             this.nbPoires.setText(String.valueOf(poires));
             Toast.makeText(this, nbPoires.getText().toString(), Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "error", Toast.LENGTH_SHORT).show();}
+            Toast.makeText(this, "ip is error", Toast.LENGTH_SHORT).show();}
+        // ip is 156.756.456.123
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
